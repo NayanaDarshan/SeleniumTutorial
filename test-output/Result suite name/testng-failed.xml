@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Result suite name]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Application_ResultName(failed)">
+    <classes>
+      <class name="TestNGTest.TestNGResult">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="AfterMethod"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- TestNGTest.TestNGResult -->
+    </classes>
+  </test> <!-- Application_ResultName(failed) -->
+</suite> <!-- Failed suite [Result suite name] -->

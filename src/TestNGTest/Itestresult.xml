@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Result suite name">
+
+<test name="Application_ResultName1">
+<classes>
+<class name = "TestNGTest.InvokeTesting" ></class>
+</classes>
+</test>
+
+<test name ="Application _ItestMethod">
+<classes>
+<class name = "TestNGTest.ListesnerTestclass"></class>
+</classes>
+</test>
+</suite>

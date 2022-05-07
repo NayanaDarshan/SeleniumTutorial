@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" parallel="methods" thread-count= "2">
+	<test name="Sum test">
+
+		<parameter name = "Employee_name" value= "Nayana"></parameter>
+		<parameter name = "browser" value = "Chrome"></parameter>
+		<parameter name ="response" value = "201, 203"></parameter>
+	
+		<classes>
+			<class name="TestNGTest.TestNGTestClass" />
+		</classes>
+	</test>
+</suite>
